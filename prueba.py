@@ -28,7 +28,7 @@ def decrypt(items, key):
     messagebox.showinfo("Recuperación de datos", "¡Felicidades! Tus datos han sido recuperados.")  # Muestra un mensaje informativo de recuperación exitosa
 
 if __name__ == '__main__':
-    path_to_encrypt = 'C:\\Users\\vja_2\\Desktop\\ransom\\files'  # Ruta del directorio que contiene los archivos encriptados
+    path_to_encrypt = 'C:\\Users\\vj\\Desktop\\ransom\\files'  # Ruta del directorio que contiene los archivos encriptados
     os.remove(os.path.join(path_to_encrypt, 'readme.txt'))  # Elimina el archivo 'readme.txt' dentro del directorio
 
     items = os.listdir(path_to_encrypt)  # Obtiene la lista de archivos dentro del directorio
